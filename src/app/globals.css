@@ -9,6 +9,8 @@
   :root {
     --background: #ffffff;
     --foreground: #09090b;
+    --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-mono: "SFMono-Regular", "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
     --card: #ffffff;
     --card-foreground: #09090b;
@@ -61,5 +63,6 @@
   }
   body {
     @apply bg-[color:var(--background)] text-[color:var(--foreground)] antialiased;
+    font-family: var(--font-sans);
   }
 }

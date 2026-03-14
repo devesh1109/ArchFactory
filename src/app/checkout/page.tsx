@@ -33,7 +33,7 @@ export default function CheckoutPage() {
             Thank you for your purchase. Your files are now ready to be downloaded.
           </p>
           <div className="flex flex-col gap-3">
-            <Link href="/profile/purchases" className="w-full py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl transition-all shadow-lg shadow-indigo-600/20">
+            <Link href="/vendors" className="w-full py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl transition-all shadow-lg shadow-indigo-600/20">
               Download Files
             </Link>
             <Link href="/" className="w-full py-4 bg-zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-50 font-bold rounded-xl transition-all">

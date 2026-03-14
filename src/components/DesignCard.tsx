@@ -51,7 +51,7 @@ export default function DesignCard({
           <span className="font-bold text-zinc-900 dark:text-zinc-50 ml-2">${price.toFixed(2)}</span>
         </div>
         
-        <Link href={`/vendors/${vendor.toLowerCase().replace(" ", "-")}`} className="text-sm text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-300 transition-colors line-clamp-1 mb-3">
+        <Link href="/vendors" className="text-sm text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-300 transition-colors line-clamp-1 mb-3">
           by {vendor}
         </Link>
         
